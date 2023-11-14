@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Formulário de Inscrição</title>
+    </head>
+
+    <body>
+        <h1>Formulário de Inscrição</h1>
+
+        <form action="">
+            
+            <!-- CAMPO DO NOME -->
+            <label for="name">Nome:</label>
+            <br>
+            <input type="text" name="nome" id="name" required>
+            <br><br>
+
+            <!-- CAMPO DE EMAIL -->
+            <label for="email">E-mail:</label>
+            <br>
+            <input type="email" name="email" id="email" required>
+            <br><br>
+
+            <!-- CAMPO DE TELEFONE -->
+            <label for="wpp">Whatsapp:</label>
+            <br>
+            <input type="tel" id="wpp" name="Whatsapp">
+            <br><br>
+
+            <!-- INPUT DE OPÇÕES -->
+            <label>Áreas de atuação:</label><br>
+            <input type="radio" name="atuacao" id="desenvolvimento">
+            <label for="desenvolvimento">Desenvolvimento</label>
+            <input type="radio" name="atuacao" id="qa">
+            <label for="qa">Quality Assurance (QA)</label>
+            <input type="radio" name="atuacao" id="ad">
+            <label for="ad">Análise de Dados</label>
+            <input type="radio" name="atuacao" id="infra">
+            <label for="infra">Infraestrutura</label>
+            <br><br>
+
+            <!-- TEXTAREA DE OBSERVAÇÕES -->
+            <label for="obs">Observações:</label><br>
+            <textarea name="obs" id="obs" cols="30" rows="3"></textarea>
+            <br><br>
+
+            <!-- CHECKBOX -->
+            <input type="checkbox" name="novidades" id="novidades">
+            <label for="novidades">Desejo receber novidades e ofertas por email.</label>
+
+
+
+            <br><br>
+            <button type="submit">Enviar</button>
+        </form>
+
+
+
+
+    </body>
+</html>
